@@ -1,8 +1,6 @@
 
  html {
-    line-height: 1.15; /* 1 */
-    -webkit-text-size-adjust: 100%; /* 2 */
-    background-color: #201921;
+    background-color: #292A33;
   }
   body {
     margin: 0;
@@ -16,9 +14,8 @@
   button,
   input,
   select   {
-    font-family: inherit; /* 1 */
+    font-family: 'Inter'; /* 1 */
     font-size: 100%; /* 1 */
-    line-height: 1.15; /* 1 */
     margin: 0; /* 2 */
   }
   
@@ -32,7 +29,6 @@
     text-transform: none;
   }
   
-
   button,
   [type="button"],
   [type="reset"],
@@ -40,14 +36,6 @@
     -webkit-appearance: button;
   }
 
-  button::-moz-focus-inner,
-  [type="button"]::-moz-focus-inner,
-  [type="reset"]::-moz-focus-inner,
-  [type="submit"]::-moz-focus-inner {
-    border-style: none;
-    padding: 0;
-  }
-  
 
   button:-moz-focusring,
   [type="button"]:-moz-focusring,
@@ -70,7 +58,7 @@
   }
   
   body {
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Inter', sans-serif;
     font-weight: 300;
     font-size: 16px;
     line-height: 1.375;
@@ -96,7 +84,7 @@
     width: 240px;
     max-width: 100%;
     border-radius: 28px;
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Inter', sans-serif;
     font-weight: 900;
     font-size: 18px;
     border: 0;
@@ -107,7 +95,7 @@
   }
   
   .btn:hover {
-    background: #a80b4d;
+    background: #0495b3;
   }
   
   .btn:active {
@@ -158,14 +146,14 @@
   
   /* page-title start */
   .page-title {
-    font-size: 48px;
+    font-size: 36px;
     text-align: center;
     margin: 0 auto 40px;
-    font-family: 'ALS Lamon';
-    font-weight: black;
+    font-family: 'Inter';
+    font-weight: 900;
     font-style: normal;
-    color: #ef0e6a;
-    filter: drop-shadow(2px 1px 2px rgb(87 71 87 / 45%));
+
+    text-shadow: 0px 4px 20px #00D5FF, 0px 1px 3px #FFFFFF, 0px 3px 8px #00D5FF;
   }
 
   @media (max-width: 576px) {
@@ -201,7 +189,7 @@
     padding: 14px;
     min-width: 150px;
     font-size: 18px;
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Inter', sans-serif;
     font-weight: 900;
     color: #e6e6e6;
     border-right: 1px solid #e5e5e5;
@@ -209,9 +197,9 @@
   }
   
   .catalog-nav__btn.is-active {
-    background: #ef0e6a;
+    background: #00D5FF;
     color: #fff;
-    border-color: #ef0e6a;
+    border-color: #00D5FF;
   }
   
   .catalog-nav__btn:not(.is-active):hover {
@@ -361,7 +349,7 @@
   
   .product__title {
     margin: 0 0 10px;
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Inter', sans-serif;
     font-weight: 900;
     font-size: 22px;
   }
@@ -392,7 +380,7 @@
     display: inline-block;
     text-align: center;
     color: #e6e6e6;
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Inter', sans-serif;
     font-weight: 900;
     padding: 13px 33px;
     border-radius: 21px;
@@ -404,7 +392,7 @@
   }
   
   .product__price {
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Inter', sans-serif;
     font-size: 22px;
     font-weight: 900;
   }
@@ -420,14 +408,14 @@
     background: none;
     width: 200px;
     padding: 14px 20px;
-    border: 1px solid #ef0e6a;
-    color: #ef0e6a;
+    border: 1px solid #00D5FF;
+    color: #00D5FF;
   }
   
   .product__btn:hover {
-    background: #ef0e6a;
+    background: #0287a1;
     color: #fff;
-    filter: drop-shadow(0px 0px 20px rgba(250, 11, 90, 0.6));
+    filter: drop-shadow(0px 0px 20px rgba(0, 197, 247, 0.6));
   }
   
   @media (max-width: 1200px) {
@@ -515,7 +503,7 @@
   }
   
   .order__title {
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Inter', sans-serif;
     margin: 0 0 5px;
     text-align: center;
     font-weight: 900;
@@ -523,14 +511,14 @@
   
   .order__subtitle {
     margin: 0 0 30px;
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Inter', sans-serif;
     color: #a2a2a2;
     font-weight: 900;
     text-align: center;
   }
   
   .order__size {
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Inter', sans-serif;
     color: #a2a2a2;
     font-weight: 900;
     margin: 0 auto 30px;
@@ -551,13 +539,13 @@
   }
   
   .form__input:focus {
-    border-color: #ef0e6a;
+    border-color: #00D5FF;
   }
   
   .form__btn {
     box-shadow: none;
     width: 100%;
-    background: #ef0e6a;
+    background: #00D5FF;
     padding: 22px 28px;
     border-radius: 50px;
   }
