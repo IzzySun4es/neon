@@ -75,11 +75,6 @@ body {
 	scroll-behavior: smooth;
 }
 
-html {
-	/* по умолчанию */
-	/* font-size: 16px;  */
-}
-
 body {
 	line-height: 1;
 	color: #4b4b4b;
@@ -1120,7 +1115,7 @@ img {
 
 .application {
 	display: flex;
-	justify-content: space-between;
+	justify-content: center;
 	flex-wrap: wrap;
 }
 
@@ -1413,10 +1408,10 @@ footer {
 
 }
 .team_section{
-	display: grid;
-	grid-template-columns: 325px 325px 325px;
+	display: flex;
 	gap: 70px;
 	margin-top: 30px;
+  flex-wrap: wrap;
 }
 .team_member{
 	padding: 20px;
