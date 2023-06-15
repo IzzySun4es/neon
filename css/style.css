@@ -1116,9 +1116,12 @@ img {
 .application {
 	display: flex;
 	justify-content: center;
-	flex-wrap: wrap;
 }
-
+@media (max-width: 1430px) {
+	.application {
+		flex-wrap: wrap;
+	}
+}
 .heading {
 	font-weight: 900;
 	font-size: 36px;
