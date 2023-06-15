@@ -1117,7 +1117,7 @@ img {
 	display: flex;
 	justify-content: center;
 }
-@media (max-width: 1430px) {
+@media (max-width: 1300px) {
 	.application {
 		flex-wrap: wrap;
 	}
